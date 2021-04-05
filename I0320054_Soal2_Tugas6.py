@@ -1,0 +1,23 @@
+#Mulai
+print("Soal 2 Tugas 6 ")
+print("")
+print("Nama : Ivanindra Rizky P")
+print("NIM : I0320054")
+print("")
+print("===========================")
+print("")
+print("Ditanya :")
+print("Buatlah program menghitung nilai rata-rata dari nilai yang diinput oleh user dengan")
+print("menggunakan perintah perulangan 'for' atau 'while'")
+print("")
+print("Jawab :")
+print("Selamat datang di mesin penghitung rata rata")
+print("Note = klik 'Enter' jika sudah selesai")
+nilai = [ ]
+x = int(input("Silahkan masukkan nilai yang mau di rata rata : "))
+while x != '' :
+    nilai.append(int(x))
+    x = input("Masukkan lagi nilai anda :")
+avg = sum(nilai) / len(nilai)
+print("Hasil dari rata rata adalah : ", avg)
+print("Selesai")
